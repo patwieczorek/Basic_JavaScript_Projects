@@ -12,3 +12,7 @@ function myFunction() {
     sentence += "a lot from this book!"; //writing function with += operator combining two lines of text
     document.getElementById("Concatenate") .innerHTML=sentence; //linking it to the correct Id
 }
+function addition_Function() {
+    var addition= 2+2;
+    document.getElementById("Math").innerHTML="2 + 2=" + addition;
+}

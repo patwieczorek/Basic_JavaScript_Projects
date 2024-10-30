@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="JS/main.js"></script>
+<p id="Test" onclick="my_Function()">Click here!</p>
+</head>
+<body>
+    <p id="Test2"></p>
+    
+    <p>Display the value of Boolean(8 > 9):</p>
+    <p id="demo"></p>
+    <script>
+    document.getElementById("demo").innerHTML = Boolean(8 > 9);
+    </script>
+
+    <p>Is 9 equal to 10?</p>
+    <p id="demo1"></p>
+    <script>
+    document.getElementById("demo1").innerHTML = Boolean(10==9);
+
+    </script>
+
+    <p>Is this the same type of data?</p>
+    <p id="demo3"></p>
+    <script>
+        document.getElementById("demo3").innerHTML = Boolean(X===Y);
+    </script>
+
+    <p>Is 4 greater than 7 AND 5 less than 6?</p>
+    <p id="demo4"></p>
+    <script>
+        document.getElementById("demo4").innerHTML = Boolean(4>7 && 5<6);
+    </script>
+    
+    <p>Find out if 20 is greater than 10.</p>
+    <p id="Not" onclick="not_Function()">Click here!</p>
+
+
+   
+</body>
+
+</html>
